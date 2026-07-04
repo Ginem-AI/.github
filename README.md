@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  REST API backend for controlling, monitoring, and automating IoT devices through natural language — via WhatsApp and a web-based chat interface.
+  REST API backend for controlling, monitoring, and automating IoT devices through natural language via WhatsApp and a web-based chat interface.
 </p>
 
 <p align="center">
