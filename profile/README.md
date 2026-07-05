@@ -72,25 +72,9 @@ Ginem is designed to be device-agnostic. The current prototype uses ESP32 with D
 
 ## System Architecture
 
-### High-Level Flow
+<img width="1447" height="1087" alt="ARSITEKTUR EN" src="https://github.com/user-attachments/assets/35965167-946a-4a7e-a940-01e9b9df07ec" />
 
-```text
-WhatsApp / Web Chat
-        ↓
-Backend API
-        ↓
-RabbitMQ Message Queue
-        ↓
-AI Agent Worker
-        ↓
-RAG + LLM Function Calling
-        ↓
-Validated Backend Tools
-        ↓
-MySQL / Redis / BullMQ / MQTT
-        ↓
-ESP32 + Sensor + Relay
-```
+
 
 The LLM does not directly control hardware. Every device action must pass through validated backend tools before an MQTT command is published to a registered IoT device.
 
